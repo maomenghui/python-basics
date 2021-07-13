@@ -25,8 +25,8 @@ def print_hi(name):
     # print(math.sin(2))
 
     # 元组
-    array = ('abcd', 786, 2.23, 'john', 70.2)
-    arr = (99, 'ccc')
+    # array = ('abcd', 786, 2.23, 'john', 70.2)
+    # arr = (99, 'ccc')
     # 当前下边和后面所有下标数据
     # print(array[2:])
     # print(array, arr)
@@ -124,6 +124,7 @@ def print_hi(name):
         print(a, b, a * 693, b * 396)
         if a * 693 == b * 396:
             print('X 的值是：', x)
+            break
         x = x + 1
 
     # **********
